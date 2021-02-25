@@ -105,3 +105,53 @@ main .back_img div:nth-child(2){
     float: right;
     width: 47%;
 }
+.post img{
+float: left;
+}
+.post div {
+    float: left;
+    margin-top: 9px;
+    margin-left: 12px;
+
+}
+.post div h3 {
+
+
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 13px;
+
+}
+.post div span {
+
+
+    width: 673px;
+    display: block;
+
+}
+.post input{
+    float: right;
+    background-color: #bc5757;
+    color: white;
+    width: 18%;
+    height: 50px;
+    margin-top: 16px;
+}
+
+
+footer {
+    clear: both;
+}
+footer div{
+    position: relative;
+    padding-top: 33px;
+}
+
+footer div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate(1500%, 73%);
+}
+
