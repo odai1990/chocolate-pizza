@@ -1,0 +1,107 @@
+body
+{
+    width: 950px;
+    margin: auto;
+
+}
+
+hgroup
+{
+   
+    vertical-align: middle;
+    margin: 4% 0;
+}
+hgroup article:nth-child(1)
+{
+    float: left;
+    width: 50%;
+}
+hgroup article:nth-child(1) :not(span)
+{
+  margin-left: 2% !important;
+}
+hgroup article:nth-child(1) span
+{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+}
+hgroup article:nth-child(1) h1
+{
+    margin: 0;
+    padding: 0;
+   
+}
+hgroup article:nth-child(1) img
+{
+    float: left;
+    margin-right: 6px !important;
+    margin-left: 0 !important;
+}
+hgroup article:nth-child(2)
+{
+    float: right;
+}
+hgroup hr
+{
+    clear: both;
+    margin-top: 44px;
+    background-image: url('../img/border.png');
+    height: 15px;
+    border: 0;
+}
+main hr
+{
+    
+    margin-top: 44px;
+    background-image: url('../img/border.png');
+    height: 15px;
+    border: 0;
+}
+
+main h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+}
+main h2+span
+{
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+}
+
+main .floting{
+    float: right;
+}
+.back_img{
+    background-image: url('../img/list-bg.png');
+    height: 296px;
+    
+}
+.back_img input[type=checkbox]{
+    margin: 2% 0;
+    
+}
+main div+img{
+    width: 100%;
+    margin-top: 33px;
+}
+
+main p
+{
+  
+    text-indent: 30px;
+}
+main .back_img div:nth-child(1){
+    margin-left: 5% !important;
+    float: left;
+    width: 45%;
+    padding: 5% 0;
+}
+main .back_img div:nth-child(2){
+    margin-top: 5% !important;
+    float: right;
+    width: 47%;
+}
